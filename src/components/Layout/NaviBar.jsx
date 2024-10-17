@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function NaviBar() {
   return (
     <>
-        <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
+        <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark' style={{'height': '8vh'}}>
             <Container>
                 <Navbar.Brand>
                     E-commerce
