@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 import viceCity from '../images/gta_vice_city.jpg'
 
 import Slider from './Slider.jsx'
+import Parallax from './Parallax/Parallax.jsx'
 
 export default function Home() {
   return (  
@@ -66,6 +67,9 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
+
+          <Parallax />
+
     </>
   )
 }

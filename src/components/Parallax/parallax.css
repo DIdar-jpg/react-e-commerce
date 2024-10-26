@@ -1,0 +1,18 @@
+.parallax {
+    background-image: url('../../images/gta_vice_city.jpg'); /* Укажите путь к вашему изображению */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 60vh; /* Высота для секции параллакса */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .parallax-content {
+    font-size: 2rem;
+    font-weight: bold;
+  }
