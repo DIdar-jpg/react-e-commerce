@@ -1,7 +1,11 @@
 import React from 'react'
 
+import Slider from './Slider.jsx'
+
 export default function About() {
   return (
-    <div>About</div>
+    <main style={{'min-height': '70vh'}}>
+      <Slider />
+    </main>
   )
 }

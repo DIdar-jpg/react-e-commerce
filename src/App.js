@@ -1,6 +1,7 @@
 import './App.css';
 
 import Navibar from './components/Layout/NaviBar.jsx'
+import Footer from './components/Layout/Footer.jsx'
 import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import Users from './components/Users.jsx'
@@ -17,7 +18,8 @@ const router = createBrowserRouter([
     element: (
       <>
         <Navibar/>
-        <Outlet/>
+          <Outlet/>
+        <Footer/>
       </>
     ),
     children: [
